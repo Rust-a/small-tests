@@ -58,7 +58,5 @@ class Client extends AbstractClient
     protected function setName(string $name): void
     {
         $this->userData['name'] = $name;
-
-        // TODO: Implement setName() method.
     }
 }
